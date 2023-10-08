@@ -44,5 +44,53 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 
 NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
+CURRENT TAX RATES
+Monthly Taxable Pay (Ksh)		Rate of Tax (%)
+Up to 24,000		                   10.0
+24,001 - 32,333	                           25.0
+32,334 - 500,000	                   30.0
+500,001 - 800,000	                   32.5
+Above 800,000	                           35.0
 
+gross-salary = salary input parameter
+NSSF 6% of your salary
+netSalary = grosssalary-taxable-NHIF-NSSF
+
+NHIF RATES
+0 – 5,999	        150
+6,000 – 7,999	        300
+8,000 – 11,999	        400
+12,000 – 14,999	        500
+15,000 – 19,999	        600
+20,000 – 24,999	        750
+25,000 – 29,999	        850
+30,000 – 34,999	        900
+35,000 – 39,000	        950
+40,000 – 44,999	        1,000
+45,000 – 49,000	        1,100
+50,000 – 59,999	        1,200
+60,000 – 69,999	        1,300
+70,000 – 79,999	        1,400
+80,000 – 89,999	        1,500
+90,000 – 99,999	        1,600
+100,000 and Above	1,700
+
+ STEPS TO SOLUTION.
+1. Declare the function which is to come up with the net salary with your 2 inputs being salary and benefit. i.e., netSalary(salary, benefit)
+
+2. you have to declare your variables, cause according to the question you have to get the net salary which is got from grosssalary-taxed income-NHIF-NSSF.
+
+3. You then write your else if and if else statements. The statements you will define the different tax-rates
+
+4. You then call your function
+
+PRACTICE QUESTION
+PROBLEM 4 -bubbleSort
+1. Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
+
+sample input = [5,6,1,3,4,2]
+
+For this question we will be using the .sort() element.
+
+this element re arranges an array from smallest to highest
 
